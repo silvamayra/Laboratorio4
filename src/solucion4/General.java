@@ -1,6 +1,6 @@
 package solucion4;
 
-public class General {
+
 	// CC2006, Lab 4
 	// Una clase para representar a los Generales.
 
@@ -17,4 +17,4 @@ public class General {
 	        System.out.println("Llevaremos tres divisiones a la frontera!");
 	    }
 	}
-}
+
