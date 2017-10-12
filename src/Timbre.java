@@ -9,7 +9,7 @@ public class Timbre {
 	}
 
 	public String toString() {
-		return "Ring…Ring";
+		return "Ring...Ring";
 	}
 }
 

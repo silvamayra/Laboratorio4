@@ -8,6 +8,6 @@ public class Alarma extends Timbre {
 	}
 	 
 	public String toString() {
-		return super.toString() + "…" + super.toString();
+		return super.toString() + "..." + super.toString();
 	}
 }
