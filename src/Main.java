@@ -1,3 +1,9 @@
+/*
+ * *Esta clase es el principal que imprime los resultados 
+ *@Authors: Mayra Silva 17276
+ * @File name: Main.java
+ * @Date and Project: Solucion 1 (12/10/2017)
+ */
 // CC2006 Lab
 // Este programa cliente prueba el comportamiento de su clase AlarmaEmergencia.
 
