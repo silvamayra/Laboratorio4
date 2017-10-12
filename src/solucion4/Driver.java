@@ -22,6 +22,7 @@ public class Driver {
 		Militar militar=new Militar();
 		Teniente teniente=new Teniente();
 		General general= new General();
+		Coronel coronel= new Coronel();
 		
 		//--INFORMACION DEL MILITAR-----------
 		//Se indica de quien se esta imrpimiendo la informacion
@@ -43,6 +44,14 @@ public class Driver {
 		//Se recibe la orden para luego imprimirla por el metodo toma orden coronel
 		String texto=teclado.nextLine();
 		teniente.tomaOrdenCoronel(texto);
+		
+		//-------------Coronel------------
+		//Se indica de quien se esta hablando
+		System.out.println("\n"+"Coronel entra en accion");
+		//Se imprime el salario del teniente
+		System.out.println("El salario del coronel es de: " + coronel.getSalario());
+		System.out.println("El coronel dice: ");
+		coronel.ejecutaOrdenManiobra();
 		
 		
 		
